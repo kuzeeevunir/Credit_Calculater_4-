@@ -31,8 +31,8 @@ public Credit_Calculator_4_ChangePasswordForm() {
 }
 	class ButtonEventListener implements ActionListener {
 		public void actionPerformed (ActionEvent x) {
-			Credit_Calculator_4_AuthorizationForm exam5 = new Credit_Calculator_4_AuthorizationForm();
-			exam5.setVisible(true);
+			Credit_Calculator_4_AuthorizationForm windowAuthorization = new Credit_Calculator_4_AuthorizationForm();
+			windowAuthorization.setVisible(true);
 		}
 	}
 }

@@ -31,14 +31,14 @@ public Credit_Calculator_4_AuthorizationForm() {
 }
 	class ButtonEventListener2 extends Credit_Calculator_4_ChangePasswordForm implements ActionListener {
 		public void actionPerformed (ActionEvent e) {
-			Credit_Calculator_4_ChangePasswordForm exam4 = new Credit_Calculator_4_ChangePasswordForm();
-			exam4.setVisible(true);
+			Credit_Calculator_4_ChangePasswordForm windowPasswordForm = new Credit_Calculator_4_ChangePasswordForm();
+			windowPasswordForm.setVisible(true);
 		}
 	}
 	class ButtonEventListener1 extends Credit_Calculator_4_CalcForm implements ActionListener {
 		public void actionPerformed (ActionEvent e) {
-			Credit_Calculator_4_CalcForm exam6 = new Credit_Calculator_4_CalcForm();
-			exam6.setVisible(true);
+			Credit_Calculator_4_CalcForm windowCalcForm = new Credit_Calculator_4_CalcForm();
+			windowCalcForm.setVisible(true);
 		}
 	}
 }
